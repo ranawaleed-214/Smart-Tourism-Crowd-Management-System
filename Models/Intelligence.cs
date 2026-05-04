@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TourEgypt.Models
 {
-    // ==================== TRIP PLANNER ====================
+    //  TRIP PLANNER
     public class TripPlanner
     {
         public int TouristId { get; set; }
@@ -48,7 +48,7 @@ namespace TourEgypt.Models
         }
     }
 
-    // ==================== INTELLIGENCE ENGINE ====================
+    //  INTELLIGENCE ENGINE
     public class IntelligenceEngine
     {
         private PlaceList _placeList;
